@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnc203"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/c203"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAlignment="textStart"/>
+
+
+        <Button
+            android:id="@+id/btnc206"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/c206"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btnc218"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/c218"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btnc235"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/c235"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btnc346"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/c346"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/btng953"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/g953"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAlignment="textStart"/>
+    </LinearLayout>
+
+</LinearLayout>
