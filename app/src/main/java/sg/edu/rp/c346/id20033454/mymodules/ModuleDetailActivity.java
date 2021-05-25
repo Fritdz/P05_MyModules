@@ -4,11 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class ModuleDetailActivity extends AppCompatActivity {
 
     TextView tvModule;
+    Button btnReturn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +19,7 @@ public class ModuleDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_module_detail);
 
         tvModule=findViewById(R.id.textView);
+        btnReturn=findViewById(R.id.button);
 
         Intent intentReceived=getIntent();
         String modulecode = intentReceived.getStringExtra("code");
@@ -26,6 +30,16 @@ public class ModuleDetailActivity extends AppCompatActivity {
                 modulecode, modulename, 2021, 1, credit, venue);
 
         tvModule.setText(output);
+
+        btnReturn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = new Intent(ModuleDetailActivity.this, MainActivity.class);
+                startActivity(intent2);
+            }
+        });
+
+
 
 
 
