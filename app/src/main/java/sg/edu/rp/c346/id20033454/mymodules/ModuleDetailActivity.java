@@ -34,8 +34,7 @@ public class ModuleDetailActivity extends AppCompatActivity {
         btnReturn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(ModuleDetailActivity.this, MainActivity.class);
-                startActivity(intent2);
+                finish();
             }
         });
 
